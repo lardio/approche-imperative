@@ -62,7 +62,7 @@ public class Interactif21Batons {
 			} else {
 				battonLeft -= jouer(deuxiemeJoueur, battonLeft);
 			}
-		} while (battonLeft > 0);
+		} while (battonLeft >= 0);
 		
 		System.out.println("#########################################################");
 		if(nbTour % 2 != 0) {
